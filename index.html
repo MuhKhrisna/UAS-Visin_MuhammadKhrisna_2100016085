@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Dashboard</title>
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <!-- <style>
+      body {
+        margin-top: 40px;
+        padding: 0 20px;
+      }
+    </style> -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <span class="navbar-brand mb-0 h1">Data Kematian Di Indonesia</span>
+  </nav>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Data Penyebab Kematian di Indonesia</div>
+          <div class="card-body">
+            <div>
+              <iframe
+                src="https://docs.google.com/spreadsheets/d/1rw2jcgd399ue95Dc6NeDeLl0hyyYxfbyK8PJKO2lskg/edit#gid=1286662220"
+                style="width: 100%; height: 350px;"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Charts 1</div>
+          <div class="card-body">
+            <canvas id="chart1"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Charts 2</div>
+          <div class="card-body">
+            <canvas id="chart2"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-header">Penjelasan</div>
+          <div class="card-body">
+            <div>
+              <p><strong>Grafik pertama, "Penyebab Kematian di Indonesia"</strong>, merupakan paparan yang informatif
+                tentang berbagai penyebab kematian di negara ini. Dalam grafik ini, kami mengumpulkan data dari berbagai
+                jenis kematian yang meliputi bencana alam dan penyakit non-alam. Setiap batang menampilkan jumlah
+                kematian yang terjadi dalam setiap kategori penyebab, dan kami menampilkan data ini secara terperinci
+                berdasarkan tahun.</p>
+              <p>Dengan tampilan yang atraktif dan warna-warna yang berbeda untuk setiap kategori, grafik ini memberikan
+                gambaran yang jelas tentang perubahan tren kematian dari tahun ke tahun. Dalam sekilas, Anda dapat
+                melihat penyebab kematian yang mungkin memiliki dampak yang signifikan pada populasi Indonesia. Grafik
+                ini adalah alat penting bagi para peneliti dan pihak berwenang dalam mengidentifikasi prioritas
+                kesehatan masyarakat dan mengambil tindakan yang tepat.</p>
+              <p><strong>Grafik kedua, "Kematian di Indonesia Berdasarkan Tahun dan Tipe"</strong>, mengambil perspektif
+                yang lebih mendalam tentang data kematian. Dalam grafik ini, kami memisahkan data berdasarkan tipe
+                kematian, termasuk bencana alam, penyakit menular, dan lainnya. Setiap jenis kematian ditampilkan dalam
+                bentuk batang yang berbeda dengan warna-warna yang mencolok.</p>
+              <p>Dengan tampilan yang terstruktur, grafik ini memungkinkan kita untuk melihat keterkaitan antara jenis
+                kematian dan perubahan tren dari waktu ke waktu. Apakah ada peningkatan kasus penyakit menular atau
+                apakah bencana alam menjadi lebih parah dari tahun ke tahun? Semua pertanyaan tersebut dapat dijawab
+                melalui analisis data yang disajikan dalam grafik ini.</p>
+              <p>Grafik-garafik ini tidak hanya mengungkapkan angka-angka kering tentang kematian, tetapi juga mengajak
+                kita untuk memahami cerita di balik data. Dengan penggambaran visual yang menarik, kami berharap
+                grafik-grafik ini dapat menjadi alat yang bermanfaat bagi semua pihak yang peduli tentang kesehatan
+                masyarakat di Indonesia. Semoga data-data ini dapat membantu merancang kebijakan kesehatan yang lebih
+                efektif, memprioritaskan upaya pencegahan, dan melindungi kesejahteraan rakyat Indonesia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <div id="chart2"></div> -->
+  <!-- Tambahkan lebih banyak elemen div untuk grafik lainnya -->
+</body>
+
+</html>
